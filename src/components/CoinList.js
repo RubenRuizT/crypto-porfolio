@@ -39,7 +39,7 @@ function CoinList() {
         }
 
             return(
-                <ul className ="coinList list-group mt-2"> 
+                <ul className ="coinList list-group  mt-2"> 
                     {coins.map(coin => {
                       return <Coin key ={coin.id} coin ={coin}/>
                     })}
